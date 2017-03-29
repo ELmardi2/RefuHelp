@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 8e663e5fa4b2223df69375d6df4eb999fefea99f
   <title>RefuHelp</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="pages/css/our-main.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body >
+<body id="pg-accueil">
 
     <div class="container">
     <div class="row">
-    <div class="col-xs-4 logo-accueil"><img src="./images/logo.png" alt="Une maison d'accueil"></div>
-    <div class="col-xs-4 col-xs-offset-4 welcome">Bienvenue sur Refuhelp !</div>
+    <div class="col-xs-4 logo-accueil"><img src="pages/images/Refuhelp-Logo.png" alt="Une maison d'accueil"></div>
+    <div class="col-xs-4 col-xs-offset-4 welcome"><h1 class="align-center">Bienvenue sur Refuhelp !</h1></div>
     </div>
-    
+    <div class="container">
+      <div class="row">
+           <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+	</div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-3 col-xs-offset-4 right">
+          <iframe class="video-link-text pull-center" src="" width="300" height="200"></iframe>
+      </div>
+    </div>
+    </div>
     <div class="row su-select">
     <div class="col-xs-6 col-sm-3 left">
             <h4 class="choose-lang">Choisissez une langue</h4>
@@ -59,7 +84,7 @@
       <div class="col-xs-6 col-sm-3 col-xs-offset-4  view-video medium-paragraph">
         <a href="#" class="launch-modal btn btn-lg btn-info" data-modal-id="modal-video">
         <span class="glyphicon glyphicon glyphicon-play"></span>
-          <span class="video-link-text">VOIR LA VIDEO</span> 
+          <span class="video-link-text">VOIR LA VIDEO</span>
         </a>
       </div>
     </div>
@@ -77,7 +102,7 @@
               <div class="modal-body">
                 <div class="modal-video">
                   <div class="embed-responsive embed-responsive-16by9">
-                          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/138453279?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e" 
+                          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/138453279?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e"
                                 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                       </div>
                     </div>
