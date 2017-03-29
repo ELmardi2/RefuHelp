@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
- 
-=======
-
->>>>>>> 8e663e5fa4b2223df69375d6df4eb999fefea99f
   <title>RefuHelp</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
