@@ -1,0 +1,19 @@
+/* body */
+
+body {
+	background-image: url(../images/main.jpg);
+}
+/* navigation bar */
+
+.logo {
+	display: inline-block;
+}
+.navigation-bar ul {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+	float: right;
+}
