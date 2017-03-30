@@ -1,0 +1,33 @@
+/* body */
+
+body {
+	height: 673px;
+	width: auto;
+	background-image: url(../images/main.jpg);
+	background-size: 100% 100%;
+}
+
+/* navigation bar */
+
+.logo {
+	display: inline-block;
+}
+.navigation-bar ul {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+	float: right;
+}
+
+/* Welcome title */
+
+/* Search box */
+
+#search-am {
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
