@@ -40,6 +40,13 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* search button */
+
+.row {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*.start-here {
   margin: 0;
   padding: 0;

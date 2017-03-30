@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="pages/css/our-main.css">
+  <link rel="stylesheet" type="text/css" href="pages/css/our-main.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -21,7 +21,7 @@
     <div class="col-xs-4 col-xs-offset-4 welcome"><h1 class="align-center">Bienvenue sur Refuhelp !</h1></div>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row" id="search-am">
            <div id="custom-search-input">
                             <div class="input-group col-md-12">
                                 <input type="text" class="  search-query form-control" placeholder="Search" />
@@ -31,8 +31,8 @@
                                     </button>
                                 </span>
                             </div>
-                        </div>
-	</div>
+          </div>
+	    </div>
     </div>
     <div class="container">
     <div class="row">
