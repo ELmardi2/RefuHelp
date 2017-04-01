@@ -20,14 +20,38 @@ body {
 	vertical-align: top;
 	list-style-type: none;
 	float: right;
+	
 }
 
 /* Welcome title */
+.welcome-am {
+	text-align: center;
+	color: #0f37d3;
+	margin-top: 100px;
+}
 
 /* Search box */
+
+.container-search {
+	margin-top: 50px;
+}
 
 #search-am {
 	width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Language Translate */
+
+.lang {
+	margin-left: 60px;
+}
+.select-am {
+	margin-top: 50px;
+}
+.choose-lang {
+	font-weight: bold;
+	color: #0f37d3;
+}
+

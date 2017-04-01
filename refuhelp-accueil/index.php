@@ -16,24 +16,26 @@
 
 			<div class="navigation-bar">
 				<nav class="navigation-bar">
-					<a href=""><img class="logo" src="images/Refuhelp-Logo.png" alt="Refuhelp-Logo" width="194" height="67"></a>
-					<ul>
-						<li><a href="">Sign In</a></li>
-						<li><a href="">Sign Up</a></li>
-						<li><a href=""><img src="">fb pic</a></li>
-						<li><a href=""><img src="">twitter pic</a></li>
-						<li><a href=""><img src="">linkedin pic</a></li>
+					<a href=""><img class="logo" src="images/Refuhelp-Logo.png" alt="Refuhelp-Logo" width="194" height="67"></a>	
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="https://www.paypal.com"><img src="http://seeklogo.com/images/P/paypal-logo-C83095A82C-seeklogo.com.png" width="25" height="25"></a></li>
+						<li class="active"><a href="https://www.facebook.com/"><img src="http://1img.org/wp-content/uploads/2015/09/facebook-icon-5.png" width="25" height="25"></a></li>
+						<li class="active"><a href="https://twitter.com/"><img src="http://icons.iconarchive.com/icons/matiasam/ios7-style/512/Twitter-icon.png" width="25" height="25"></a></li>
+				
+						<li class="active"><a href="#">Sign Up</a></li>
+						<li class="active"><a href="#">Sign In</a></li>
+						<li class="active"><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					</ul>
 				</nav>
 			</div>
 
 			<!-- Welcome title -->
-			<div>
+			<div class="welcome-am">
 				<h1>Bienvenue Sur RefuHelp</h1>
 			</div>
 
 			<!-- Search box -->
-			<div class="container">
+			<div class="container-search">
 				<div class="row" id="search-am">
 					<div id="cutom-search-input">
 						<div class="input-group col-md-12">
@@ -48,6 +50,27 @@
 				</div>
 
 			</div>
-		</div>
+
+			<!-- Language Translate -->
+	
+		    <div class="container lang">
+		    	<div class="row select-am">
+		    		<div col-xs-6 col-sm-3 left>
+		    			<h4 class="choose-lang">Choisissez Une Langue</h4>
+		    			<a class="btn btn-success btn-select">
+		    				<input type="hidden" class="btn-select-input" id="" name="" value="">
+		    				<span class="btn-select-value">Select Language</span>
+		    				<span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+		    				<ul>
+		    					<li class="selected">English</li>
+		    					<li>Français</li>
+		    					<li>عربي</li>
+		    				</ul>
+		    			</a>
+		    		</div>
+		    		
+		    	</div>
+		    	
+		    </div>
 	</body>
 </html>
