@@ -54,16 +54,16 @@
 			<!-- Language Translate -->
 	
 		    <div class="container lang">
-		    	<div class="row am-select">
+		    	<div class="row am-row">
 		    		<div col-xs-6 col-sm-3 left>
 		    			<h4 class="choose-lang">Choisissez Une Langue</h4>
-		    			<div>
-		    			<select class="btn btn-success btn-select">
-		    				<option>French</option>
-		    				<option>English</option>
-		    				<option>Arab</option>
-		    			</select>
-		    		</div>
+			    		<div id="am-select">
+			    			<select class="btn btn-success btn-select">
+			    				<option>French</option>
+			    				<option>English</option>
+			    				<option>Arab</option>
+			    			</select>
+			    		</div>
 		    		</div>
 		    		<div class="col-xs-6 col-sm-3 col-xs-offset-4 right view-video medium-paragraph">
 		    			<a href="#" class="launch-modal btn btn-lg btn-info" data-modal-id="modal-video"><span class="glyphicon glyphicon glyphicon-play"></span>
@@ -75,10 +75,5 @@
 		    	</div>
 		    	
 		    </div>
-
-			<div class="btn-group">
-				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Belgium<span class="caret"></span></button>
-				<ul class="dropdown-menu scrollable-menu"
-			</div>
 	</body>
 </html>
