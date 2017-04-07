@@ -51,16 +51,18 @@ body {
 
 .lang {
     margin-left: 60px;
+
 }
 
 .am-row {
     padding-top: 100px;
     padding-bottom: 30px;
-
+    margin-left: 150px;
 }
 
 .am-col-lang {
     margin-left: 20px;
+    text-align: left;
 }
 #am-select {
     margin-left: 45px;
@@ -74,3 +76,7 @@ body {
 
 
 /* View video */
+
+.right {
+    margin: -30px 0 0 45%;
+}
