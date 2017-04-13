@@ -1,3 +1,14 @@
+<?php
+	$search = $_GET['q'];
+
+	if($_GET['q'] == 'Search...') {
+		header('Location: index.php');
+	}
+	if($_GET['q'] !== '') {
+	$con = mysql_connect('localhost', 'root', 'simplonco');
+	$db = mysql_select_db('RefuHelp');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -56,17 +67,33 @@
 				<div class="row" id="search-am">
 					<div id="cutom-search-input">
 						<div class="input-group col-md-12">
-							<input type="text" class="search-query form-control" placeholder="Search">
-							<span class="input-group-btn">
-								<button class="btn btn-danger" type="button">
-									<span class="glyphicon glyphicon-search"></span>
-								</button>
-							</span>
+							<form action="index.php" method="GET" id="am-searchform">
+								<input type="text" name="q"id="am-searchBar" placeholder="" value="Search..." maxlength="25" autocomplete="off" onmousedown="active();" onblur="inactive();"><input type="submit" id="am-searchBtn" value="Search!">
+							</form>
 						</div>
 					</div>
 				</div>
 
 			</div>
+			
+			<?php
+				if(!isset($search)) {
+					echo '';
+				} else {
+					$query = mysql_query("SELECT * FROM users WHERE title LIKE  '%$search%' OR description LIKE '%$search%'");
+					$num_rows = mysql_num_rows($query);
+			?>
+					</br><p><strong><?php echo $num_rows; ?></strong> results for '<?php echo $search; ?></p>
+				<?php
+					while ($row = mysql_fetch_array($query)) {
+						$id = $row['id'];
+						$title = $row['title'];
+						$desc = $row['description'];
+						echo '<h3><a href="../pages/main.php">' . $title . '</a></h3><p>' . $desc . '</p></br>';
+					}
+				}
+
+			?>
 
 			<!-- Language Translate -->
 	
@@ -86,9 +113,17 @@
 		    			<a href="#" class="launch-modal btn btn-lg btn-info" data-modal-id="modal-video"><span class="glyphicon glyphicon glyphicon-play"></span>
 		    			<span class="video-link-text">VOIR LA VIDEO</span></a>
 
-		    		</div>		    		
+		    		</div>
+
+		    		
 		    	</div>
+		    	
 		    </div>
 		</div>
 	</body>
 </html>
+<?php
+	} else {
+		header('Location: index.php');
+	}
+?>
