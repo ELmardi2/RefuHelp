@@ -22,34 +22,33 @@
 		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<!-- navigation bar -->
+		
 
 			<nav class="navbar navbar-default navbar-fixed-top" id="main_navbar">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index_en.html"><img src="images/Refuhelp-Logo.png" alt="Refuhelp-Logo" width="194" height="67" id="logo" /></a>
-                </div>
+	            <div class="container">
+	                <!-- Brand and toggle get grouped for better mobile display -->
+	                <div class="navbar-header">
+	                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	                        <span class="sr-only">Toggle navigation</span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                    </button>
+	                    <a class="navbar-brand" href="index_en.html"><img src="images/Refuhelp-Logo.png" alt="Refuhelp-Logo" width="194" height="67" id="logo" /></a>
+	                </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                       <li><a href="https://www.facebook.com"><img src="https://img.clipartfest.com/5f501c692bb9c6782efc7af0f4bcf349_facebook-icon-circle-vector-facebook-logo_512-512.png" width="25" height="25"></a></li>
-                        <li><a href="https://www.twitter.com"><img src="http://icons.iconarchive.com/icons/matiasam/ios7-style/512/Twitter-icon.png" width="25" height="25"></a></li>
-                        <li><a href="https://www.paypal.com/fr/webapps/mpp/home"><img src="http://seeklogo.com/images/P/paypal-logo-C83095A82C-seeklogo.com.png" width="25" height="25"></a></li>
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Sign In</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                    <ul class="nav navbar-nav navbar-right">
+	                       <li><a href="https://www.facebook.com"><img src="https://img.clipartfest.com/5f501c692bb9c6782efc7af0f4bcf349_facebook-icon-circle-vector-facebook-logo_512-512.png" width="25" height="25"></a></li>
+	                        <li><a href="https://www.twitter.com"><img src="http://icons.iconarchive.com/icons/matiasam/ios7-style/512/Twitter-icon.png" width="25" height="25"></a></li>
+	                        <li><a href="https://www.paypal.com/fr/webapps/mpp/home"><img src="http://seeklogo.com/images/P/paypal-logo-C83095A82C-seeklogo.com.png" width="25" height="25"></a></li>
+	                        <li><a href="#">Sign Up</a></li>
+	                        <li><a href="#">Sign In</a></li>
+	                    </ul>
+	                </div><!-- /.navbar-collapse -->
+	            </div><!-- /.container-fluid -->
+        	</nav>
 
 			<!-- Welcome title -->
 			<div class="container">
@@ -59,7 +58,7 @@
 							<h1>Bienvenue Sur RefuHelp</h1>
 						</div>
 					</div>
-				</div>
+				</div>			
 			</div>
 
 			<!-- Search box -->
@@ -127,3 +126,6 @@
 		header('Location: index.php');
 	}
 ?>
+
+
+	

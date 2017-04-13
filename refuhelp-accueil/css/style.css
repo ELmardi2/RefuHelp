@@ -1,30 +1,39 @@
 /* body */
 
 body {
+  margin-left: : 0;
     height: 673px;
     width: auto;
     background-image: url(../images/bodbgr.jpg);
     background-size: 100% 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
 }
-
-
 /* navigation bar */
 
 #logo {
     margin-top: -25px;
 }
+.nav  {
+  margin: 0;
+position: relative;
 
-.navigation-bar ul {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    list-style-type: none;
-    float: right;
 }
+.mr-comm {
+  width: 83%;
+  margin:  0 auto;
+  margin-left: 30px;
 
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: 10px;
 
+}
 
 /* Welcome title */
 
@@ -87,18 +96,16 @@ form {
 
 .lang {
     margin-left: 60px;
-
 }
 
 .am-row {
     padding-top: 100px;
     padding-bottom: 30px;
-    margin-left: 150px;
+
 }
 
 .am-col-lang {
     margin-left: 20px;
-    text-align: left;
 }
 #am-select {
     margin-left: 45px;
