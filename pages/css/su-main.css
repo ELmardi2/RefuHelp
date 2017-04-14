@@ -1,10 +1,14 @@
+.su-nav{
+	height: 70px;
+}
+
 #su-content{
 	background-image: url(../images/Page2background.jpg);
 	background-repeat: no-repeat;
 }
 #su-logo{
 	height: 120px;
-	width: 240px;
+	width: 300px;
 }
 #su-sm{
    padding: 20px;
