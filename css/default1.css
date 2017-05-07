@@ -16,7 +16,7 @@ Primary use:	One page
 5. Footer
 6. Components
 
-[Coloor codes]
+[Color codes]
 
 Buttons, etc:	#726FB9 (blue)
 hover color:	#fed136 (yellow)
@@ -42,9 +42,6 @@ body {
     background-image: url(../images/bodbgr.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  background-size: cover;
-  background-attachment: fixed;
-background-position: center;
 }
 *{
     -webkit-box-sizing: border-box;
@@ -100,7 +97,6 @@ font-weight: 300;
     margin-right: 25px;
 }
 ol, ul {
-  color: #000000;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -118,9 +114,6 @@ ol, ul {
     font-size: 15px;
     padding: 0;
     margin: 0px;
-}
-li > a {
-    color: #0e0101;
 }
 .search {
     margin: 7px auto;
@@ -146,10 +139,10 @@ li > a {
 .left-side .bs-calltoaction{
     position: relative;
     border: 1px solid black;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-
+    margin: 1px auto;
 }
 .right-side .bs-calltoaction {
     position: relative;
@@ -296,9 +289,8 @@ a:hover,a:focus{
 }
 
 #contact{
-  background: #1ab2ff;
+  background: #483ad8;
 color: #f4f4f4;
-margin: 12px;
 padding-bottom: 80px;
 }
 
@@ -309,7 +301,7 @@ textarea.form-control{
 
 footer{
   margin: 5px;
-  background-color: #fd5000;
+  background-color: #0099e6;
   color: #ef0d3d;
   padding: 20px;
 }
